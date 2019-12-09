@@ -16,6 +16,9 @@ public class Char {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        char myCharacter = 'A';
+        System.out.println(myCharacter);
     }
     
 }
