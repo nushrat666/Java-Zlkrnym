@@ -18,7 +18,10 @@ public class Char {
         // TODO code application logic here
         
         char myCharacter = 'A';
-        System.out.println(myCharacter);
+        
+        boolean statement=false;
+        
+        System.out.println(statement);
     }
     
 }
