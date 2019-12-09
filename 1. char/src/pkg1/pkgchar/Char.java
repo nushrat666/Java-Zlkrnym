@@ -16,12 +16,22 @@ public class Char {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //char myCharacter = 'A';
+        //boolean statement=false;
+        //System.out.println(statement);
         
-        char myCharacter = 'A';
+        int firstnumber;
+        int secondnumber;
         
-        boolean statement=false;
+        //firstnumber=11;
+        secondnumber=2;
+        secondnumber=secondnumber+2;
+        secondnumber+=10;
+        //int result = firstnumber%secondnumber;
+        System.out.println(secondnumber);
+       
         
-        System.out.println(statement);
+        
     }
     
 }
