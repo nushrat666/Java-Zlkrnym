@@ -12,21 +12,12 @@ import java.util.Scanner;
  * @author Tuli
  */
 public class answermultipliedby100 {
-    static Scanner myscanner=new Scanner(System.in);
+   
     
     public static void main(String[] args) {
-        int firstNumber ;
-       System.out.print("Please give us a number to be multiplied by 100: ");
-            firstNumber=myscanner.nextInt();
-    int resultnew = prokriya(firstNumber); 
-        
-
-        System.out.println(resultnew);      
+            
              
     }
-    static public int prokriya(int firstvalue){
-       int answer=firstvalue*=100;
-       return answer;
-   }
+   
 }
 
