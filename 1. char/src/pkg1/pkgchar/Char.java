@@ -17,21 +17,19 @@ public class Char {
     public static void main(String[] args) {
         // TODO code application logic here
         //char myCharacter = 'A';
-        //boolean statement=false;
+        boolean statement=(3+90)>4;
         //System.out.println(statement);
         
-        int firstnumber;
-        int secondnumber;
+        //int firstnumber;
+       // float secondnumber;
         
         //firstnumber=11;
-        secondnumber=2;
-        secondnumber=secondnumber+2;
-        secondnumber+=10;
+        //secondnumber=2;
+        //secondnumber=secondnumber+2;
+        //secondnumber/=10;
         //int result = firstnumber%secondnumber;
-        System.out.println(secondnumber);
+        System.out.println(statement);
        
-        
-        
-    }
+         }
     
 }
