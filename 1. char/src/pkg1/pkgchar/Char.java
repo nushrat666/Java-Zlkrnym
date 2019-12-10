@@ -17,18 +17,20 @@ public class Char {
     public static void main(String[] args) {
         // TODO code application logic here
         //char myCharacter = 'A';
-        boolean statement=(3+90)>4;
+        //boolean statement=4!=4;
         //System.out.println(statement);
-        
         //int firstnumber;
-       // float secondnumber;
-        
-        //firstnumber=11;
-        //secondnumber=2;
-        //secondnumber=secondnumber+2;
-        //secondnumber/=10;
-        //int result = firstnumber%secondnumber;
-        System.out.println(statement);
+//       int secondnumber;
+//        //firstnumber=11;
+//        secondnumber=2;
+//        secondnumber=secondnumber+2; //hobe 4
+//        secondnumber/=4; // hobe 1
+//        secondnumber++; //hobe 2
+//        secondnumber--; //hobe 1
+//int result = firstnumber%secondnumber;
+
+        char [] cards ={'A','2','k'};
+        System.out.println(cards[2]);
        
          }
     
