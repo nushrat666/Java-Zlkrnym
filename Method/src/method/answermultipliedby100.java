@@ -13,11 +13,23 @@ import java.util.Scanner;
  */
 public class answermultipliedby100 {
    
+    static Scanner myScanner=new Scanner (System.in);
     
     public static void main(String[] args) {
-            
+       int firstNumber;
+        System.out.println("Please give us a number which is multiplied by 100: ");
+        firstNumber=myScanner.nextInt();
+       
+        int resultnew= prokriya(firstNumber);
+        System.out.println(resultnew);
              
     }
+    static public int prokriya(int firstValue){
+        firstValue*=100;
+        return firstValue;
+    }
+    }
+    
    
-}
+
 
